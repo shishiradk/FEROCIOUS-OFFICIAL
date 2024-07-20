@@ -15,7 +15,7 @@ body {
     ), url("n1.png");
     background-size: cover;
     background-position: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .container {
@@ -55,9 +55,7 @@ body {
 
 .social-links:hover,
 .sm-icon:hover {
-    opacity: 0.9;
-    color: grey;
-    
+    opacity: 0.8;
 }
 
 .sm-icon {
@@ -86,6 +84,9 @@ p {
 }
 
 footer {
+    position: absolute; /* Position the footer */
+    bottom: 0; /* Align to the bottom of the viewport */
+    width: 100%; /* Full width */
     background-image: url('n1.png'); /* Background image for the footer */
     background-size: cover; /* Ensure the background image covers the entire footer */
     color: white; /* Text color */
