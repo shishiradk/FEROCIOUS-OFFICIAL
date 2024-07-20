@@ -86,6 +86,9 @@ p {
 }
 
 footer {
+    position: absolute; /* Position the footer */
+    bottom: 0; /* Align to the bottom of the viewport */
+    width: 100%; /* Full width */
     background-image: url('n1.png'); /* Background image for the footer */
     background-size: cover; /* Ensure the background image covers the entire footer */
     color: white; /* Text color */

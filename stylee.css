@@ -55,7 +55,9 @@ body {
 
 .social-links:hover,
 .sm-icon:hover {
-    opacity: 0.8;
+    opacity: 0.9;
+    color: grey;
+    
 }
 
 .sm-icon {
